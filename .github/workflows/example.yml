@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: liquibase/liquibase-github-action@v2
-      - uses: liquibase-github-actions/update-sql@v4.27.0
-        with:         
+        with:
+          operation: 'update'
           classpath: 'example/changelogs'
           changeLogFile: 'samplechangelog.h2.sql'
           username: liquibase
