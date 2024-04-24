@@ -13,4 +13,4 @@ jobs:
           changeLogFile: 'samplechangelog.h2.sql'
           username: dbuser
           password: letmein
-          url: jdbc:h2:tcp://localhost:9090/mem:dev
+          url: jdbc:h2:tcp://10.233.226.147:9090/mem:dev
