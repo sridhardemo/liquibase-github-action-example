@@ -11,6 +11,6 @@ jobs:
           operation: 'update'
           classpath: 'example/changelogs'
           changeLogFile: 'samplechangelog.h2.sql'
-          username: RTF_DEV_RASD
-          password: letmein
-          url: jdbc:oracle:thin:@exacc14db04vm01-vip.au.cbainet.com:1521/GTRS_DEV2.cba.com.au
+          username: liquibase
+          password: password
+          url: jdbc:h2:file:./h2tutorial
